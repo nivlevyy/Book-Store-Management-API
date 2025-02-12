@@ -23,14 +23,16 @@ This project is a **Flask-based Book Management System** that allows users to st
  │   ├── __init__.py        # Database connection
  │   ├── models.py          # SQLAlchemy models
  │   ├── mongo_helper.py    # MongoDB Helper Class
+ ├── 📂 logs                # Contains logs for requests and book actions
+ │   ├── books.log          # Logs related to book management
+ │   ├── requests.log       # Logs related to API requests
  ├── serverLog.py           # API Logging
  ├── bookclass.py           # Business Logic
  ├── requirements.txt       # Python Dependencies
  ├── Dockerfile             # Container Setup
  ├── docker-compose.yml     # Service Orchestration
  ├── .gitignore             # Git Ignore Configurations
- ├── README.md              # Project Documentation
- ├── Books test final_collection.json  # Postman API Tests
+ ├── Books_test_final_collection.json  # Postman API Tests
 ```
 
 ---
@@ -96,13 +98,12 @@ Try the following:
 
 To test the API using **Postman**, follow these steps:
 
-1. **Download the Postman Collection**:
-   [📥 Books test final_collection.json](sandbox:/mnt/data/Books%20test%20final_collection.json)
+1. **Download the Postman Collection**: [📥 Books_test_final_collection.json](sandbox:/mnt/data/Books%20test%20final_collection.json)
 
 2. **Import the Collection in Postman**:
    - Open Postman
    - Click **Import** > **Choose File**
-   - Select `Books test final_collection.json`
+   - Select `Books_test_final_collection.json`
 
 3. **Run the API Requests**:
    - Start your server using Docker.
@@ -112,7 +113,10 @@ To test the API using **Postman**, follow these steps:
 
 ## 📌 Logging System
 
-Logs are stored in *`logs/requests.log`** and **`logs/books.log`** and track API usage and book actions.*
+Logs are stored in the `logs/` directory and track API usage and book actions:
+
+- `logs/books.log` - Logs related to book operations
+- `logs/requests.log` - Logs related to incoming API requests
 
 ---
 
