@@ -1,4 +1,12 @@
-# 📚 Book Management API
+<h1 align="center">
+  <a><img src="https://github.com/nivlevyy/Book-Store-Management-API/blob/main/image/bookstore.webp" width="300"></a>
+<br>
+Book Management API
+<br>
+</h1>
+
+
+# 📚 Overview
 
 This project is a **Flask-based Book Management System** that allows users to store, retrieve, update, and delete book records using **PostgreSQL** and **MongoDB**. The project supports **RESTful APIs**, **logging**, and **containerized deployment using Docker**.
 
