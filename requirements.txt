@@ -1,0 +1,7 @@
+Flask==1.1.4
+Werkzeug==1.0.1
+Jinja2==2.11.3
+MarkupSafe==1.1.1
+SQLAlchemy==1.4.41
+pymongo==3.12.3
+psycopg2-binary==2.9.6
